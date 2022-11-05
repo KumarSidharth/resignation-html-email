@@ -1,0 +1,29 @@
+{
+  "name": "resignation-html-email",
+  "version": "1.0.0",
+  "description": "HTML email for Resignation. Copy and paste this page to the email body",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node-sass --watch index.scss > index.css --output-style expanded",
+    "build": "node-sass index.scss > index.css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KumarSidharth/resignation-html-email.git"
+  },
+  "keywords": [
+    "html",
+    "email",
+    "resignation"
+  ],
+  "author": "Kumar Sidharth <k.sidharth1994@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KumarSidharth/resignation-html-email/issues"
+  },
+  "homepage": "https://github.com/KumarSidharth/resignation-html-email#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
